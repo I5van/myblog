@@ -1,0 +1,404 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Heebo&family=Lobster&display=swa') ;
+
+.photos a{
+	margin-left: 35px;
+}
+
+.copyright{
+	font-family: Heebo;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 30px;
+	line-height: 50px;
+}
+.navigation a{
+	font-family: Heebo;
+	font-style: medium;
+	font-size: 20px;
+	line-height: 29px;
+	line-height: 100%;
+	text-align: right;
+	vertical-align: top;
+	color: black;
+	text-decoration: none;
+	
+
+}
+.text{
+	 font-family: Heebo;
+	height: 105px;
+	width: 506px;
+	margin-left: 148px;
+	margin-top: 228px;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.pic{
+height: 243px;
+width: 243px;
+margin-left: 800px;
+border-radius: 0px;
+margin-top: -110px;
+
+
+}
+.text2{
+height: 66px;
+width: 497px;
+margin-left: 148px;
+margin-top: -23px;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.but{
+	height: 47px;
+	width: 208px;
+	margin-left: 148px;
+	margin-top: 27px;
+	border-radius: 2px;
+	background: #FF6464;
+	font-family: Heebo;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+.works:hover{
+	color: red;
+	text-decoration: underline;
+
+}
+.works:active{
+	color: yellow;
+}
+.circle{
+	
+	background-image: url("images/Ellipse 2.svg");
+	background-repeat: no-repeat;
+	background-position: 795px 5px 
+
+
+}
+
+.block{
+	background: #EDF7FA;
+	height: 396px;
+	margin-top: 71px;
+	padding-left: 148px;
+	
+
+
+}
+.text3{
+	font-family: Heebo;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 60px;
+	letter-spacing: 0px;
+	text-align: left;
+	
+}
+.text4{
+	height: 20px;
+	width: 208px;
+	margin-left: 650px;
+	margin-top:-40px;
+	font-family: Heebo;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: right;
+	color:#00A8CC;
+	text-decoration: underline;
+
+	}
+	.paragraph{
+		height: 85px;
+		width: 374px;
+		font-family: Heebo;
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 38px;
+		letter-spacing: 0px;
+		text-align: left;
+	}
+	.post{
+		background: #FFFFFF;
+		height: 295px;
+		width: 418px;
+		border-radius: 4px;
+		padding: 24px 21px 0px 23px;
+		margin-top: 15px;
+		display: inline-block;
+		margin-right: 20px;
+
+	}
+.post p{
+	font-family: Heebo;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-top: 15px;
+ 
+
+}
+.fw{
+	height: 256px;
+	padding:15px 148px 31px 146px;
+}
+.fworks{
+	font-family: Heebo;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-left: 150px;
+
+
+}
+.im2{
+	height: 180px;
+	width: 246px;
+	top: 1088px;
+	border-radius: 6px;
+
+}
+.im3{
+	margin-top: 100px
+
+}
+.head{
+	font-family: Heebo;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 44px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-top: -210px;
+	margin-left: 310px;
+
+
+}
+.d2{
+	background: url();
+	}
+.par {
+	font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+height: 93px;
+width: 594px;
+margin-left: 310px;
+
+
+}
+.r2018{
+	height: 25px;
+width: 62px;
+border-radius: 16px;
+background: #142850;
+margin-left: 310px; 
+padding-top: 3px;
+display: inline-block;
+}
+.r2018 p{
+    font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+.r2018:after{
+	content: "Dashboard";
+	color: #8695A4;
+	display:block;
+	margin-left: 90px;
+	margin-top:-17px;
+	font-family: Heebo;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+	text-align: left;
+
+}
+.fw:after{
+	content: url("images/line.svg");
+	display: block;
+	margin-top: -70px;
+}
+.content{
+	padding-top: 20px;
+	height:100px;
+}
+.blogh2{
+	height: 54px;
+	width: 156px;
+	margin-left: 235px;
+	margin-top: 100px;
+	font-family: Heebo;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: 0px;
+	text-align: left;
+
+}
+.pblog{
+	height: 200px;
+}
+.heading7{
+	height: 33px;
+	width: 682px;
+	left: 235px;
+	top: 269px;
+	font-family: Heebo;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 44px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-left: 235px;
+	margin-top:100px; 
+	color: #21243D;
+
+	
+
+}
+.blogpar{
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0px;
+	text-align: left;
+	height: 25px;
+	width: 374px;
+	margin-left: 235px;
+	margin-top: 30px
+	
+
+
+}
+.blogtext{
+	height: 43px;
+	width: 682px;
+	left: 235px;
+	top: 358px;
+	border-radius: nullpx;
+	font-family: Heebo;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-left: 235px;
+	margin-top: 20px;
+
+
+}
+.im5{
+	margin-top: 29px;
+	margin-left: 235px; 
+}
+.heading8{
+	font-family: Heebo;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+height: 69px;
+width: 156px;
+margin-left: 138px;
+
+}
+ a:visited{
+	color: black;
+	text-decoration: none;
+
+}
+.navigation a:hover{
+	text-decoration: none;
+}
+.redblog: visited{
+	color: #FF6464;
+
+}
