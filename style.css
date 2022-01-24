@@ -39,6 +39,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Heebo&family=Lobster&display=swa') ;
 
+.navigation{
+	margin-left: 856px;
+}
 .photos a{
 	margin-left: 35px;
 }
@@ -60,6 +63,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	vertical-align: top;
 	color: black;
 	text-decoration: none;
+	margin-left:27px;
+
 	
 
 }
@@ -319,7 +324,7 @@ color: #FFFFFF;
 
 }
 .pblog{
-	height: 200px;
+	margin-top: -62px;
 }
 .heading7{
 	height: 33px;
@@ -401,4 +406,8 @@ margin-left: 138px;
 .redblog: visited{
 	color: #FF6464;
 
+
+}
+.footer{
+	margin-top: 50px;
 }
